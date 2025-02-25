@@ -1,0 +1,186 @@
+/* Resetting margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #6692c4;
+}
+
+/* Header Styles */
+header {
+    background-color: #aa5798;
+    color: rgb(208, 198, 211);
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(10, 3, 15);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ff6f61;
+}
+
+/* Home Section */
+.home {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: rgb(33, 18, 167);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.home .intro {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: rgb(187, 224, 19);
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #e85d54;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #e7e0e1;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px 20px;
+    background-color: #669661;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.project-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    color: #ff6f61;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background-color: #94ac53;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact label {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #80703fe5;
+    border-radius: 5px;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #6a628d;
+    color: rgb(224, 207, 207);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #a3688f;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e4d8d8;
+    color: rgb(56, 81, 136);
+    margin-top: 20px;
+}
+
